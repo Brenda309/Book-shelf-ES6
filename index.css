@@ -161,3 +161,6 @@ footer p {
 footer {
   border: solid 4px black;
 }
+.date{
+  text-align: end;
+}

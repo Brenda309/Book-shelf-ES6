@@ -1,7 +1,9 @@
 import add from './modules/add.js';
 import{displayContact, displayBooks,displayInputs} from'./modules/navlinks.js'
-import Book from './modules/class.js';
- class Books {/* eslint-disable-line max-classes-per-file */
+
+
+
+ class Books {
   constructor() {
     this.array = [];
   }

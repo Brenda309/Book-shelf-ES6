@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Brenda309/Book-shelf-ES6/issues"
   },
-  "homepage": "https://github.com/Brenda309/Book-shelf-ES6#readme"
+  "homepage": "https://github.com/Brenda309/Book-shelf-ES6#readme",
+  "dependencies": {
+    "full-icu": "^1.4.0",
+    "luxon": "^2.4.0"
+  }
 }
