@@ -1,19 +1,16 @@
- import add from './modules/add.js'
-class Books {/* eslint-disable-line max-classes-per-file */
+import add from './modules/add.js';
+import{displayContact, displayBooks,displayInputs} from'./modules/navlinks.js'
+import Book from './modules/class.js';
+ class Books {/* eslint-disable-line max-classes-per-file */
   constructor() {
     this.array = [];
   }
 }
 
-class Book {/* eslint-disable-line max-classes-per-file */
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-  }
-}
 const booksTitle = document.getElementById('title');
 const author = document.getElementById('author');
 const addBtn = document.getElementById('addBtn');
+
 const storage = new Books();
 
 if (localStorage.Books) {
@@ -55,38 +52,14 @@ const remove = () => {
 };
 remove();
 // Add functionalities to the nav-menu
-const list = document.getElementById('list');
-const addNew = document.getElementById('new');
-const contact = document.getElementById('contact');
-const bookListSect = document.getElementById('book-list');
-const userInput = document.getElementById('userInput');
-const contactSection = document.getElementById('contact-us');
 
 // display constact information
-const displayContact = () =>{ 
-contact.addEventListener('click', () => {
-  contactSection.style.display = 'block';
-  bookListSect.style.display = 'none';
-  userInput.style.display = 'none';
-});
-}
+
 displayContact()
 // display list of books that were add
-const displayBooks = () => {
-list.addEventListener('click', () => {
-  bookListSect.style.display = 'block';
-  contactSection.style.display = 'none';
-  userInput.style.display = 'none';
-});
-}
+
 displayBooks()
 
 // display input field field for use to add a book
-const displayInputs = () => {
-addNew.addEventListener('click', () => {
-  userInput.style.display = 'block';
-  bookListSect.style.display = 'none';
-  contactSection.style.display = 'none';
-});
-}
+
 displayInputs();
