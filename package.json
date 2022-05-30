@@ -1,0 +1,20 @@
+{
+  "name": "Book-shelf-ES6",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brenda309/Book-shelf-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brenda309/Book-shelf-ES6/issues"
+  },
+  "homepage": "https://github.com/Brenda309/Book-shelf-ES6#readme"
+}
